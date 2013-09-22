@@ -3,10 +3,14 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.0'
-
+gem 'interactive_editor'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
+	gem 'pry-rails'
+	gem 'terminal-notifier-guard'
+	gem 'guard-rspec', '2.5.0'
+	gem 'terminal-notifier'
 end
 
 group :test do
